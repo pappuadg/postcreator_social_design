@@ -1,0 +1,114 @@
+#app .line-no-text {
+  margin-bottom: 3px;
+  height: 13px;
+  background: #f4f4f4;
+}
+
+#app .no-margin {
+  margin: 0px !important;
+}
+
+#app .heading {
+  overflow: hidden;
+}
+
+#app .avatar {
+  float: left;
+  margin-right: 5px;
+}
+
+#app .avatar img {
+  height: 50px;
+  border-radius: 100%;
+}
+
+#app .user-title {
+  color: #3658A9;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#app .posted_at {
+  color: #aaaaaa;
+  font-size: 14px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#app .posted_at i {
+  font-size: 13px;
+  margin: 4px 5px;
+}
+
+#app .post-image {
+  overflow: hidden;
+}
+
+#app .post-image img {
+  width: 100%;
+}
+
+#app #facebook .social_secton {
+  text-align: center;
+}
+
+#app #facebook .social_icons {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+#app #instagram .ins_posted_at {
+  color: #aaaaaa;
+  font-size: 14px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+#app #instagram .social_secton {
+  color: #aaaaaa;
+}
+
+#app #instagram .social_secton a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+#app #instagram .social_secton a i {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+#app #instagram .inst_share a i {
+  color: #aaaaaa;
+  font-size: 20px;
+  float: right;
+}
+
+#app #twitter .social_secton {
+  text-align: center;
+}
+
+#app #twitter .social_icons {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+#app #twitter .twetted_at {
+  color: #98C3E4;
+  text-decoration: none;
+}
+
+#app #twitter .link-twitter-image {
+  overflow: hidden;
+}
+
+#app #twitter .link-twitter-image img {
+  height: 150px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,109 @@
+#app {
+    $light-grey: #aaaaaa;
+    $light-blue: #98C3E4;
+
+
+    .line-no-text{
+        margin-bottom: 3px;
+        height: 13px;
+        background: #f4f4f4;
+    }
+    .no-margin{
+        margin: 0px !important;
+    }
+    .heading{
+        overflow: hidden;
+    }
+    .avatar{
+        float: left;
+        margin-right: 5px;
+    }
+    .avatar img{
+        height: 50px;
+        border-radius: 100%;
+    }
+    .user-title{
+        color: #3658A9;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .posted_at{
+        color: $light-grey;
+        font-size: 14px;
+        text-decoration: none;
+        display: flex;
+
+    }
+    .posted_at i{
+        font-size: 13px;
+        margin: 4px 5px;
+    }
+    .post-image{
+        overflow: hidden;
+
+    }
+    .post-image img{
+        width: 100%;
+    }
+
+    #facebook {
+
+        .social_secton{
+            text-align: center;
+        }
+        .social_icons{
+            color: $light-grey;;
+            text-decoration: none;
+            
+        }
+    }
+
+    #instagram {
+        .ins_posted_at{
+            color: $light-grey;
+            font-size: 14px;
+            text-decoration: none;
+            display: flex;
+            float: right;
+        }
+        .social_secton{
+            color: $light-grey;
+        }
+        .social_secton a{
+            color: $light-grey;
+            text-decoration: none;
+        }
+        .social_secton a i{
+          font-size: 25px;
+          margin-right: 5px;
+        }
+        .inst_share a i{
+            color: $light-grey;
+            font-size: 20px;
+            float: right;
+        }
+    }
+
+    #twitter {
+        .social_secton{
+            text-align: center;
+        }
+        .social_icons{
+            color: $light-grey;
+            text-decoration: none;
+            
+        }
+        .twetted_at{
+            color: $light-blue;
+            text-decoration: none;
+        }
+        .link-twitter-image{
+            overflow: hidden;
+        }
+        .link-twitter-image img{
+            height: 150px;
+        }
+    }
+
+}
